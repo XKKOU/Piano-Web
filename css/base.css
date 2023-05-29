@@ -1,24 +1,80 @@
 @charset "utf-8";
 /*初始化样式*/
-*{margin:0;padding:0;}
-body,html{width: 100%;}
-body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,pre,form,input,textarea,p,hr,thead,tbody,tfoot,th,td{margin:0;padding:0;}
-ul,ol{list-style:none;}
-html{-ms-text-size-adjust:none;-webkit-text-size-adjust:none;text-size-adjust:none;font-size:50px;}
-body{font-size:12px;}
-body,button,input,select,textarea{font-family:'Unlock', cursive;}
-b,strong{font-weight:bold;}
-i,em{font-style:normal;}
-table{border-collapse:collapse;border-spacing:0;}
-table th,table td{border:1px solid #ddd;padding:5px;}
-table th{font-weight:inherit;border-bottom-width:2px;border-bottom-color:#ccc;}
-img{border:0 none;width:auto\9;max-width: 100%;}
-button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;vertical-align:baseline;outline:0px ; outline:none;}
-button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
-button[disabled],input[disabled]{cursor:default;}
-input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}
-input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}
-input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}
+*{
+  margin:0;
+  padding:0;
+}
+body,html{
+  width: 100%;
+}
+body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,pre,form,input,textarea,p,hr,thead,tbody,tfoot,th,td{
+  margin:0;
+  padding:0;
+}
+ul,ol{
+  list-style:none;
+}
+html{
+  -ms-text-size-adjust:none;
+  -webkit-text-size-adjust:none;
+  text-size-adjust:none;
+  font-size:50px;
+}
+body{
+  font-size:12px;
+}
+body,button,input,select,textarea{
+  font-family:'Abril Fatface', cursive;
+}
+b,strong{
+  font-weight:bold;
+}
+i,em{
+  font-style:normal;
+}
+table{
+  border-collapse:collapse;
+  border-spacing:0;
+}
+table th,table td{
+  border:1px solid #ddd;
+  padding:5px;
+}
+table th{
+  font-weight:inherit;
+  border-bottom-width:2px;
+  border-bottom-color:#ccc;
+}
+img{border:0 none;
+  width:auto\9;
+  max-width: 100%;
+}
+button,input,select,textarea{
+  font-family:'Abril Fatface', cursive;
+  font-size:100%;
+  margin:0;vertical-align:baseline;
+  outline:0px ; outline:none;
+}
+button,html input[type="button"],
+input[type="reset"],input[type="submit"]{
+  -webkit-appearance:button;cursor:pointer;
+}
+button[disabled],input[disabled]{
+  cursor:default;
+}
+input[type="checkbox"],input[type="radio"]{
+  box-sizing:border-box;
+  padding:0;
+}
+input[type="search"]{
+  -webkit-appearance:textfield;
+  -moz-box-sizing:content-box;
+  -webkit-box-sizing:content-box;
+  box-sizing:content-box;
+}
+input[type="search"]::-webkit-search-decoration{
+  -webkit-appearance:none;
+}
 @media screen and (-webkit-min-device-pixel-ratio:0){
 input{line-height:normal!important;}
 }
@@ -34,16 +90,6 @@ a,a:hover,a:active,a:visited,a:link,a:focus {
 }
 /* 插件swiper样式 */
 .swiper-container {width: 100%;height: 100%;}
-/* .swiper-slide a {width: 100%;height: 100%;display: block;} */
-/* .swiper-slide a img {height: 100%;object-fit: cover;} */
-/* .swiper-slide {
-    font-size: 18px;
-    display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-pack: center;-ms-flex-pack: center;-webkit-justify-content: center;
-    justify-content: center;-webkit-box-align: center;-ms-flex-align: center;-webkit-align-items: center;align-items: center;z-index: 980;
-} */
-/* .swiper-slide a {display: block;width: 100%;} */
-/* .swiper-slide a img {width: 100%;height: 100%;object-fit: cover;} */
-/* 清楚浮动 */
 .clearfloat:after {display: block;clear: both;content: "";visibility: hidden;height: 0;}
 .clearfloat {zoom: 1;}
 .d-flex {
@@ -139,27 +185,7 @@ a,a:hover,a:active,a:visited,a:link,a:focus {
   -webkit-flex-direction: column;
   flex-direction: column;
 }
-/* 改变input提示字的样式  （.input_btn为对应classname的input） */
-/* .input_btn::-webkit-input-placeholder {
-    color:    #fff;
-    font-family:"Microsoft Yahei","PingFang SC"; 
-    font-size:14px; 
-}
-.input_btn:-moz-placeholder { 
-    color:    #fff;
-    font-family:"Microsoft Yahei","PingFang SC"; 
-    font-size:14px; 
-}
-.input_btn::-moz-placeholder { 
-    color:    #fff;
-    font-family:"Microsoft Yahei","PingFang SC"; 
-    font-size:14px; 
-}
-.input_btn:-ms-input-placeholder {
-    color:    #fff;
-    font-family:"Microsoft Yahei","PingFang SC"; 
-    font-size:14px; 
-} */
+
 /* 改变input 选中后再次选择时的样式 */
 input:-webkit-autofill {box-shadow: 0 0 0px 1000px #fff inset;-webkit-box-shadow: 0 0 0px 1000px #fff inset;}
 ::-webkit-scrollbar{width:5px;height:5px;border-radius: 4px;}

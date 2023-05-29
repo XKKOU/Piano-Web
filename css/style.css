@@ -31,11 +31,13 @@
 
 .headeright{
 	float: right;
-	line-height: 80px;}
+	line-height: 80px;
+}
 .headeright p{
 	font-size: 18px;
 	color: #fff;
-	text-transform: uppercase;}
+	text-transform: uppercase;
+}
 .conter{
 	width: 100%;
 	background: var(--black);
@@ -63,6 +65,7 @@
 	background: var(--grey);
 	padding: 10px 0;
 	box-sizing: border-box;
+	font-family: var(--title);
 }
 .listimg{
 	display: block;
