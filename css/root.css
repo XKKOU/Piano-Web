@@ -1,0 +1,17 @@
+:root{
+    /*color*/
+    --white: #ffffff;
+    --black:#2B2623;
+    --gold:#9C7735;
+    --Beige:#DDD7CD;
+    --grey:#E5E5E5;
+    --lightwhite:#F5F5F5;
+    --darkgrey:#D9D9D9;
+
+    /*Font style*/
+    --title:'Unlock', cursive;
+    --subtitle:'Abril Fatface', cursive;
+    --heading:'Oswald', sans-serif;
+    --text:'Montserrat', sans-serif;
+
+}
