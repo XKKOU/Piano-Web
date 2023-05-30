@@ -14,6 +14,7 @@ body{
     background-color: var(--black);
     font-family: var(--title);
     color: var(--white);
+    font-size: 12px;
 }
 
 nav{
@@ -56,7 +57,31 @@ a{
     margin: 0.5rem;
 }
 
+.headerseach {
+    float: left;
+    margin-top: 18px;
+    margin-left: 120px;
+}
 
+.headerseach input {
+    width: 170px;
+    height: 42px;
+    border-radius: 5px;
+    background: #DDD7CD url(../images/search-3.png) 10px center no-repeat;
+    background-size: 20px;
+    padding-left: 38px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    border: 0;
+}
+.headerighted {
+    float: right;
+    margin-top: 15px;
+}
+.headerighted a {
+    display: block;
+    max-width: 50px;
+}
 
 /*hero section-1 & 2*/
 .sidebar-container{

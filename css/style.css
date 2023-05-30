@@ -83,12 +83,14 @@
 	box-sizing: border-box;
 }
 .listext h5{
+	font-family: var(--heading);
 	font-size: 20px;
 	color: #000;
 	font-weight: 500;
 	margin-bottom: 10px;
 }
 .listext p{
+	font-family: var(--text);
 	font-size: 14px;
 	color: #000;
 	font-weight: 500;
@@ -107,6 +109,7 @@
 	line-height: 40px;
 }
 .listlast span{
+	font-family: var(--subtitle);
 	float: right;
 	font-size: 18px;
 	color: #fff;
@@ -187,12 +190,14 @@
 	color: #fff;
 	font-weight: 500;
 	margin-bottom: 30px;
+	font-family: var(--subtitle);
 }
 .deright h6{
 	font-size: 28px;
 	color: #fff;
 	font-weight: 500;
 	margin-bottom: 30px;
+	font-family: var(--heading);
 }
 .delisted{
 	width: 100%;
@@ -236,10 +241,11 @@
 	color: #fff;
 	font-size: 20px;
 	margin-right: 50px;
+	font-family: var(--subtitle);
 }
 .delast a:last-child{
 	background: #fff;
-	color:#9c7735;
+	color:var(--gold);
 	margin-right: 0;
 }
 .debut{
@@ -250,6 +256,7 @@
 	color: #fff;
 	font-weight: 500;
 	margin-bottom: 20px;
+	font-family: var(--heading);
 }
 .debut h5 span{
 	color: #e5e5e5;
@@ -260,6 +267,7 @@
 	width: 100%;
 }
 .debutlist p{
+	font-family: var(--text);
 	font-size: 18px;
 	line-height: 34px;
 	color: #fff;
