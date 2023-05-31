@@ -370,3 +370,11 @@ form {
 	ul li:nth-child(3n){margin-right: 2%;}
 	ul li:nth-child(2n){margin-right: 0;}
 }
+
+@media screen and (max-width: 580px){
+    .card {
+    width: 100%;
+    margin-right: 0;
+    float: none;
+    }
+}
