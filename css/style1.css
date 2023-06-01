@@ -365,16 +365,26 @@ form {
     transition: all 0.3s ease-out;
 }
 
-@media screen and (max-width: 980px) {
-    ul li{width: 49%;}
-	ul li:nth-child(3n){margin-right: 2%;}
-	ul li:nth-child(2n){margin-right: 0;}
+@media screen and (max-width: 580px) {
+	.cluster ul li{width: 100%;margin-right: 0;float: none;}
+	.headerseach{float: right;}
+	.headerighted{float: left;}
+	.hero__cta h1{font-size: 24px;}
+	.btn a{width: 100%;margin-right: 0;float: none;margin-bottom: 10px;display: block;}
+	.hero__cta h2{font-size: 20px;}
+	.hero__cta h1{margin-left: 22px;}
 }
-
 @media screen and (max-width: 580px){
-    .card {
+    .col {
     width: 100%;
     margin-right: 0;
     float: none;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .cluster , .hero{
+        display: flex;
+        flex-direction: column;
     }
 }
