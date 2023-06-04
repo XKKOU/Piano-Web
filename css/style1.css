@@ -89,6 +89,7 @@ a{
 .sidebar-container{
     display: flex;
     flex-direction: row;
+    margin-bottom: 5%; 
 
 }
 .sidebar{
@@ -101,7 +102,9 @@ a{
     flex-grow: 999;
     min-width: 50%;
 }
-
+.sidebar-top{
+    margin-top: 6%;
+}
 
 .hero__cta{
     margin-top:auto;
@@ -111,8 +114,8 @@ a{
 
 .hero__image{
     padding: 3em;
-    width: 55%;
-    height: 55%;
+    width: 60%;
+    height: 60%;
     border-radius: 15%;
 }
 
@@ -132,14 +135,15 @@ a{
     
 }
 .btn-primary:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: var(--grey);
+    color: var(--gold);
   }
 
 
 /* Text section*/
 h1,a{
     padding-left: 5px;
+    margin: 0 auto;
 }
 
 h1{
@@ -274,19 +278,6 @@ img {
 
 
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
-  @media screen and (max-width: 600px) {
-    .col {
-      width: 100%;
-    }
-  }
-
-
-  /* Contact Part*/
-  @media (max-width: 320px ) {
-    .contact-section {
-    padding:1em 0;
-    }
-  }
 
   .contact-section{
     box-sizing: border-box;
@@ -327,13 +318,6 @@ element.style {
     animation-name: fadeInLeft;
 }
 
-@media (max-width: 991px){
-.contact-grid {
-    float: left;
-    width: 50%;
-}
-}
-
 .col-md-6{
 position: relative;
 min-height: 1px;
@@ -366,16 +350,43 @@ form {
 }
 
 @media screen and (max-width: 580px) {
-	.cluster ul li{width: 100%;margin-right: 0;float: none;}
-	.headerseach{float: right;}
-	.headerighted{float: left;}
-	.hero__cta h1{font-size: 24px;}
-	.btn a{width: 100%;margin-right: 0;float: none;margin-bottom: 10px;display: block;}
-	.hero__cta h2{font-size: 20px;}
-	.hero__cta h1{margin-left: 22px;}
+	.cluster ul li{
+        width: 100%;
+        margin-right: 0;
+        float:inline-start;
+    }
+	.headerseach{
+        float: right;
+    }
+	.headerighted{
+        float: left;
+    }
+	.hero__cta h1{
+        font-size: 24px;
+    }
+	.btn a{
+        width: 100%;
+        margin-right: 0;
+        float: none;
+        margin-bottom: 10px;
+        display: block;
+    }
+	.hero__cta h2{
+        font-size: 20px;
+    }
+	.hero__cta h1{
+        margin: 22px;
+    }
+    .hero__image {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+
+    }
 }
 @media screen and (max-width: 580px){
-    .col {
+    .listimg {
     width: 100%;
     margin: auto;
     float: none;
@@ -389,3 +400,24 @@ form {
         margin: auto;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .col {
+      width: 100%;
+    }
+  }
+
+
+  /* Contact Part*/
+  @media (max-width: 320px ) {
+    .contact-section {
+    padding:1em 0;
+    }
+  }
+
+  @media (max-width: 991px){
+    .contact-grid {
+        float: left;
+        width: 50%;
+    }
+    }
